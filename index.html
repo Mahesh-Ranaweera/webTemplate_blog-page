@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 
+<!--simple blog layout
+    coded by mi6softlab
+    free to use personal use -->
+
 <html lang="en">
-    <head>
-        <title>tinyBits</title>
-        
-        <meta charset="UTF-8">
-        <meta name="description" content="minimalDesign">
-        <meta name="author" content="mi6softlab">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/main.css" type="text/css">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
-        
-        <script>
-            function darkt(){
-                //document.body.style.background = "black";
-            }
-            
-            function whitet(){
-                //document.body.style.background = "white";
-                
-            }
-        </script>
-    </head>
-    
-    <body>
-        <div id="page_header">
-            <div class="middle_head_wrap">
-                <div class="page_head_txt">
-                    Blog
-                </div>
-            </div>
-            
-            <div class="bg-color_choose">
-                <button type="button" class="theme_box_black" onclick="darkt()"></button>
-                <button type="button" class="theme_box_white" onclick="whitet()"></button>
+
+<head>
+    <title>tinyBits</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="minimalDesign">
+    <meta name="author" content="mi6softlab">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+        function darkt() {
+            //document.body.style.background = "black";
+        }
+
+        function whitet() {
+            //document.body.style.background = "white";
+
+        }
+    </script>
+</head>
+
+<body>
+    <!--heading-->
+    <div id="page_header">
+        <div class="middle_head_wrap">
+            <div class="page_head_txt">
+                Blog
             </div>
         </div>
-        
+
+        <div class="bg-color_choose">
+            <button type="button" class="theme_box_black" onclick="darkt()"></button>
+            <button type="button" class="theme_box_white" onclick="whitet()"></button>
+        </div>
+    </div>
+
+    <!--content-->
+    <div id="cont_wrapper">
+        <div class="paper_wrapper">
+            <div class="user_info">
+                <div class="user_img"></div>
+                <div class="date_txt">Jun 7</div>
+                <div class="year_txt">2016</div>
+            </div>
+
+            <div class="paper">
+                <div class="header">
+                    Your Heading
+                </div>
+                <div class="img_wrap">
+
+                </div>
+                <div class="para_text">
+                    <p>Content goes here</p>
+                    <code class="tag">your codes goes here</code>
+                    <code class="comment">code comments</code>
+                </div>
+            </div>
+        </div>
+
+        <!--content-->
         <div id="cont_wrapper">
             <div class="paper_wrapper">
                 <div class="user_info">
@@ -46,40 +77,23 @@
                     <div class="date_txt">Jun 7</div>
                     <div class="year_txt">2016</div>
                 </div>
-                
+
                 <div class="paper">
                     <div class="header">
-                        Mahesh
+                        Your Heading
                     </div>
                     <div class="img_wrap">
 
                     </div>
                     <div class="para_text">
-                        <p>Mahesh testinf the codes </p>
-                        <code class="tag">This is the code that is in html</code>
-                        <code class="comment">This is the code that is in html</code>
+                        <p>Content goes here</p>
+                        <code class="tag">your codes goes here</code>
+                        <code class="comment">code comments</code>
                     </div>
                 </div>
             </div>
-            
-            <div class="paper_wrapper">
-                <div class="user_info">
-                    <div class="user_img"></div>
-                    <div class="date_txt">Jun 7</div>
-                    <div class="year_txt">2016</div>
-                </div>
-                
-                <div class="paper">
-                    <div class="header">
-                        Mahesh
-                    </div>
-                    <div class="img_wrap">
 
-                    </div>
-                </div>
-            </div>
-            
-            
         </div>
-    </body>
+</body>
+
 </html>
