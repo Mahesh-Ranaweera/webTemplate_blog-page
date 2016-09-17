@@ -29,6 +29,7 @@
 }
 .paper {
     width: 85%;
+    margin-bottom: 50px;
     height: auto;
     float: right;
     display: block;
@@ -66,10 +67,12 @@
     font-weight: 500;
     color: rgba(0, 0, 0, 0.84);
 }
-.para_text {
+.para_text-area {
     width: 100%;
     height: auto;
     margin-top: 2px;
+    padding: 10px;
+    box-sizing: border-box;
     float: left;
     text-indent: 10px;
     word-wrap: break-word;
@@ -144,4 +147,23 @@
     height: 14px;
     border-style: none;
     background-color: aqua;
+}
+
+.cmnt-section {
+  width: 100%;
+  height: auto;
+  float: left;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+.text-area {
+  max-width: 100%;
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  border-style: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  font-size:16px;
+  border-radius: 2px;
 }
